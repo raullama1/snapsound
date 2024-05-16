@@ -1,0 +1,167 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: #F6F5ED;
+}
+
+#main {
+    width: 100%;
+}
+
+#nav {
+    width: 100%;
+    height: 15vh;
+    padding: 0 4vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav h3{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 19px;
+}
+#nav h3 span{
+    font-weight: 600;
+}
+
+#nav #links{
+    display: flex;
+    gap: 20px;
+}
+
+#links a{
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 15px;
+    font-family: Georgia;
+    color: black;
+}
+
+#heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 40vh;
+}
+#heading h1{
+    font-size: 40px;
+    font-family: Cursive;
+}
+#heading p{
+    font-size: 18px;
+    width: 40%;
+    margin: 30px 0px;
+    text-align: center;
+}
+#heading button{
+    padding: 12px 22px;
+    background-color: black;
+    color: #fff;
+    border-radius: 100px;
+}
+
+#illus {
+    width: 100%;
+}
+#illus img{
+    width: 100%;
+    background-size: cover;
+}
+
+#details{
+    display: flex;
+    justify-content: space-between;
+    padding: 10vw 5vh;
+    width: 100%;
+    margin-top: 4vh;
+}
+#details #dleft{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 48%;
+    padding-right: 50px;
+    border-right: 2px solid black;
+}
+#details #dleft p{
+    width: 40%;
+    text-align: right;
+    font-size: 20px;
+    font-family: georgia ;
+    font-weight: 100;
+    font-style: italic;
+}
+#details #dleft #smline{
+    width: 5%;
+    height: 2px;
+    background-color: #000;
+    margin: 40px;
+}
+
+#details #dright{
+    width: 48%;
+}
+#dright .feat {
+    display: flex;
+    gap: 20px;
+}
+.feat i {
+    font-size: 30px;
+}
+
+.feat p{
+    margin-top: 10px;
+    font-size: 14px;
+    width: 50%;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.feat h3{
+    font-size: 20px;
+}
+
+#dright .feat2 {
+    margin-top: 7vh;
+    display: flex;
+    gap: 20px;
+}
+.feat2 i {
+    font-size: 30px;
+}
+
+.feat2 p{
+    margin-top: 10px;
+    font-size: 14px;
+    width: 50%;
+    font-weight: 100;
+    font-style: italic;
+}
+
+#dright .feat3 {
+    margin-top: 7vh;
+    display: flex;
+    gap: 20px;
+}
+.feat3 i {
+    font-size: 30px;
+}
+
+.feat3 p{
+    margin-top: 10px;
+    font-size: 14px;
+    width: 50%;
+    font-weight: 100;
+    font-style: italic;
+}
